@@ -13,12 +13,19 @@
         <maven.compiler.target>18</maven.compiler.target>
     </properties>
 
-<!--    Add context to Spring -->
     <dependencies>
+        <!--    Add context to Spring -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
             <version>5.3.22</version>
+        </dependency>
+        <!-- Lib to getters and setters to string auto, and logger -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
