@@ -13,6 +13,16 @@
         <maven.compiler.target>18</maven.compiler.target>
     </properties>
 
+<!--    Add context to Spring -->
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.3.22</version>
+        </dependency>
+    </dependencies>
+
+
 <!--  Maven compiler important to correctly run Spring application - Compile project using java 18 compiler. By default, java 5 by is not supported -->
     <build>
         <plugins>
